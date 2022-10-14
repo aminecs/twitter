@@ -1,0 +1,64 @@
+.feed {
+    max-width: 560px;
+    border-right: 0.01mm solid var(--myGrey);
+    left: 0;
+    right: 0;
+    flex: auto;
+    overflow-y: scroll;
+}
+
+.feed::-webkit-scrollbar {
+    display: none;
+  }
+  
+/* Hide scrollbar for IE, Edge and Firefox */
+.feed {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.feed__tweets::-webkit-scrollbar {
+    display: none;
+  }
+  
+/* Hide scrollbar for IE, Edge and Firefox */
+.feed__tweets {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.feed__tweets {
+    padding-top: 10px;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.feed__extend {
+    text-align: center;
+    border-bottom: 0.01mm solid var(--myGrey);
+    cursor: pointer;
+    /* padding-top: 10px; */
+    height: 5vh;
+    /* background-color: rgba(182, 182, 182, 0.2); */
+    background-color: var(--twitterColour);
+    color: white;
+    /* position: fixed; */
+    margin-left: 100px;
+    width: 160px;
+    border-radius:24px;
+    vertical-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+.feed__bar {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    border-bottom: 0.01mm solid var(--myGrey);
+    padding: 20px 20px;
+    display:flex;
+    padding-bottom: 20px;
+}

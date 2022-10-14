@@ -1,0 +1,10 @@
+.explore {
+    padding-right: 22px;
+    text-align: center;
+    padding-left: 4px;
+}
+
+.explore > h2 {
+    font-weight: normal;
+    font-size: 20pt;
+}

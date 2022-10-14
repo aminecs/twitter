@@ -1,0 +1,14 @@
+.sidebar {
+    min-width: 230px;
+    padding-left: 50px;
+    padding-right: 20px;
+    border-right: 0.01mm solid rgba(182, 182, 182, 0.6);
+    padding-top: 10px;
+}
+
+.sidebar__logo {
+    color: var(--twitterColour);
+    padding-left: 10px !important;
+    padding-bottom: 10px;
+    font-size: 40px !important;
+}

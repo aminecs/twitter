@@ -1,0 +1,46 @@
+.tweet{
+    display: flex;
+    padding-right: 20px;
+    border-bottom: 0.01mm solid rgba(182, 182, 182, 0.6);
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+
+.tweet__information__header {
+    padding-bottom: 10px;
+    padding-top: 3px;
+    font-size: 12px;
+}
+
+.tweet__avatar {
+    padding-right: 10px;
+}
+
+.tweet__interaction {
+    padding-top: 20px;
+}
+
+.tweet__qa, .tweet__rt, .tweet__fav, .tweet__share {
+    margin-right: 95px;
+    font-size: 15px !important;
+}
+
+.twitter__header{
+    display: flex;
+    align-items: center;
+    color: lightslategrey !important;
+    font-size: 12px;
+}
+
+.twitter__header__name {
+    font-weight: bolder;
+    font-size: 11pt;
+    margin-right: 5px;
+    color: black;
+}
+
+.tweet__fav {
+    height: 12px;
+    border-radius: 0px;
+}
